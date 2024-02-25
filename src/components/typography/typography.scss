@@ -1,0 +1,103 @@
+@use "../../scss/variables.scss" as var;
+@use "../../scss/breakpoints.scss" as bp;
+
+.typography {
+  margin: 0;
+
+  &-h1 {
+    font-family: var.$font-family-work-sans;
+    font-size: var.$font-size-24px;
+    font-weight: var.$font-weight-600;
+    line-height: var.$font-line-height-120precent;
+    color: var.$color-midnight-purple;
+    @include bp.for("aboveMobile") {
+      font-size: var.$font-size-32px;
+    }
+  }
+
+  &-subtitle1 {
+    font-family: var.$font-family-inter;
+    font-size: var.$font-size-16px;
+    font-weight: var.$font-weight-400;
+    line-height: var.$font-line-height-125precent;
+    color: var.$color-purple-gray;
+  }
+
+  &-label1 {
+    font-family: var.$font-family-rubik;
+    font-size: var.$font-size-14px;
+    font-weight: var.$font-weight-500;
+    line-height: var.$font-line-height-18px;
+    color: var.$color-midnight-grey;
+  }
+
+  &-label2 {
+    font-family: var.$font-family-work-sans;
+    font-size: var.$font-size-16px;
+    font-weight: var.$font-weight-500;
+    line-height: var.$font-line-height-140precent;
+    color: var.$blue-gray-900;
+
+    @include bp.for("aboveMobile") {
+      font-size: var.$font-size-20px;
+    }
+  }
+
+  &-value1 {
+    font-family: var.$font-family-rubik;
+    font-size: var.$font-size-24px;
+    font-weight: var.$font-weight-500;
+    line-height: var.$font-line-height-28px;
+    color: var.$color-purple-gray;
+  }
+
+  &-value2 {
+    font-family: var.$font-family-inter;
+    font-size: var.$font-size-24px;
+    font-weight: var.$font-weight-700;
+    line-height: var.$font-line-height-120precent;
+    color: var.$color-purple-gray;
+
+    @include bp.for("aboveMobile") {
+      font-size: var.$font-size-32px;
+    }
+  }
+
+  &-date1 {
+    font-family: var.$font-family-rubik;
+    font-size: var.$font-size-16px;
+    font-weight: var.$font-weight-500;
+    line-height: var.$font-line-height-125precent;
+    color: var.$color-purple-gray;
+  }
+
+  &-date2 {
+    font-family: var.$font-family-work-sans;
+    font-size: var.$font-size-12px;
+    font-weight: var.$font-weight-400;
+    line-height: var.$font-line-height-16px;
+    color: var.$color-purple-gray;
+  }
+
+  &-info {
+    font-family: var.$font-family-work-sans;
+    font-size: var.$font-size-12px;
+    font-weight: var.$font-weight-400;
+    line-height: var.$font-line-height-140precent;
+    color: var.$blue-gray-900;
+  }
+
+  &-button {
+    font-family: var.$font-family-work-sans;
+    font-size: var.$font-size-16px;
+    font-weight: var.$font-weight-600;
+    line-height: var.$font-line-height-125precent;
+
+    &--outline {
+      color: var.$color-purple-gray;
+    }
+    &--filled {
+      color: var.$color-white;
+    }
+  }
+}

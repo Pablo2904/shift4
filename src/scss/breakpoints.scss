@@ -1,0 +1,7 @@
+@use "./variables.scss" as variables;
+
+@mixin for($device) {
+  @media #{map-get(variables.$devices, $device)} {
+    @content;
+  }
+}

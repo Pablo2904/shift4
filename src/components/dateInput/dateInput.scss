@@ -1,0 +1,26 @@
+@use "../../scss/variables.scss" as vars;
+
+.dateInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid vars.$color-dark-white;
+  border-radius: 4px;
+  padding: 12px;
+
+  &__time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__rightButton {
+    transform: rotate(180deg);
+  }
+
+  &__button {
+    &:focus {
+      background-color: vars.$color-light-blue;
+    }
+  }
+}

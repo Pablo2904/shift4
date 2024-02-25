@@ -1,0 +1,13 @@
+@use "../../scss/variables.scss" as var;
+@use "../../scss/breakpoints.scss" as bp;
+
+.header {
+  display: none;
+
+  @include bp.for("aboveMobile") {
+    padding: 24px 40px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+  }
+}

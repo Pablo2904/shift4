@@ -1,0 +1,46 @@
+$devices: (
+  "mobile": "screen and (max-width: 599px)",
+  "aboveMobile": "screen and (min-width: 600px)",
+);
+$font-size-32px: 2rem;
+$font-size-24px: 1.5rem;
+$font-size-20px: 1.25rem;
+$font-size-16px: 1rem;
+$font-size-14px: 0.875rem;
+$font-size-12px: 0.75rem;
+
+$font-line-height-120precent: 1.2;
+$font-line-height-125precent: 1.25;
+$font-line-height-140precent: 1.4;
+
+$font-line-height-16px: 1rem;
+$font-line-height-18px: 1.125rem;
+$font-line-height-28px: 1.75rem;
+
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+
+$font-family-work-sans: "Work Sans", sans-serif;
+$font-family-inter: "Inter", sans-serif;
+$font-family-rubik: "Rubik", sans-serif;
+
+$color-midnight-purple: #423c66;
+$color-purple-gray: #595d7b;
+$color-salmon: #ffdbcb;
+$color-light-gray: #f4f8fa;
+$color-white: #ffffff;
+$color-dark-white: #e9eef2;
+$color-midnight-grey: #4d6475;
+$blue-gray-900: #1e2a32;
+$color-lavender: #645d93;
+$color-dark-purple: #241e47;
+$color-light-blue: #f3f5fe;
+$color-light-lavender: #e8eaf2;
+
+$color-rgba-transparent: rgba(30, 42, 50, 0.08);
+$color-rgba-black: rgba(0, 0, 0, 0.1);
+$color-rgba-light-purple: rgba(178, 167, 244, 0.1);
+$color-rgba-semi-transparent-purple: rgba(178, 167, 244, 0.25);
+$color-rgba-dark-purple: rgba(89, 93, 123, 0.1);
