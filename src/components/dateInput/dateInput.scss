@@ -17,10 +17,4 @@
   &__rightButton {
     transform: rotate(180deg);
   }
-
-  &__button {
-    &:focus {
-      background-color: vars.$color-light-blue;
-    }
-  }
 }

@@ -14,8 +14,7 @@
 
   &--outline {
     border-color: vars.$color-purple-gray;
-    &:hover,
-    &:focus {
+    &:hover {
       background-color: vars.$color-rgba-light-purple;
     }
     &:active {
@@ -25,8 +24,7 @@
 
   &--filled {
     background-color: vars.$color-midnight-purple;
-    &:hover,
-    &:focus {
+    &:hover {
       background-color: vars.$color-lavender;
     }
     &:active {

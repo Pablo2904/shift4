@@ -44,12 +44,7 @@ const DateInput = ({ setTimeData }: DateInputProps) => {
 
   return (
     <div className="dateInput">
-      <Button
-        variant="image"
-        onClick={handlePrevMonth}
-        className="dateInput__button"
-        testId="prev-button"
-      >
+      <Button variant="image" onClick={handlePrevMonth} testId="prev-button">
         <ChevronLeft />
       </Button>
       <div className="dateInput__time">
@@ -64,7 +59,7 @@ const DateInput = ({ setTimeData }: DateInputProps) => {
       <Button
         variant="image"
         onClick={handleNextMonth}
-        className="dateInput__button dateInput__rightButton"
+        className="dateInput__rightButton"
         testId="next-button"
       >
         <ChevronLeft />
